@@ -5,7 +5,7 @@ set -euo pipefail
 if command -v apt-get >/dev/null 2>&1; then
   sudo apt-get update
   sudo apt-get install -y \
-    libtiff5 \
+    libtiff6 \
     libxkbcommon-x11-0 \
     libxcb-cursor0 \
     libxcb-keysyms1 \
