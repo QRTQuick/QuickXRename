@@ -1,0 +1,22 @@
+app: QuickXRename
+version: 0.1.0
+
+AppDir:
+  path: ./AppDir
+  app_info:
+    id: com.quickredtech.quickxrename
+    name: QuickXRename
+    icon: quickxrename
+    exec: QuickXRename
+    exec_args: $@
+
+  files:
+    include:
+      - dist/QuickXRename/**
+
+  runtime:
+    env:
+      PYTHONUNBUFFERED: "1"
+
+AppImage:
+  arch: x86_64

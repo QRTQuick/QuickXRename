@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="32" fill="#0f1218"/>
+  <g fill="none" stroke="#2b3446" stroke-width="8">
+    <rect x="48" y="48" width="416" height="416" rx="28"/>
+  </g>
+  <g fill="#1f2432" stroke="#4b7bec" stroke-width="6">
+    <path d="M140 250c0-70 60-120 140-120 70 0 120 40 120 100 0 20-6 40-18 56 30 14 50 42 50 74 0 48-44 86-98 86h-124c-54 0-98-38-98-86 0-40 30-74 72-84-28-8-44-26-44-46z"/>
+    <circle cx="300" cy="240" r="10" fill="#e8ecf3" stroke="none"/>
+    <circle cx="260" cy="240" r="10" fill="#e8ecf3" stroke="none"/>
+  </g>
+  <g fill="#0f1218" stroke="#4b7bec" stroke-width="6">
+    <path d="M210 292c18-16 38-24 60-24s42 8 60 24"/>
+    <rect x="226" y="306" width="80" height="48" rx="20" fill="#141926"/>
+    <circle cx="252" cy="330" r="8" fill="#e8ecf3" stroke="none"/>
+    <circle cx="280" cy="330" r="8" fill="#e8ecf3" stroke="none"/>
+  </g>
+  <g fill="#4b7bec">
+    <path d="M170 210l-28-36 44 12z"/>
+    <path d="M342 210l28-36-44 12z"/>
+  </g>
+  <text x="256" y="458" text-anchor="middle" font-family="Segoe UI, Arial" font-size="24" fill="#a7b0c0">QuickXRename</text>
+</svg>
