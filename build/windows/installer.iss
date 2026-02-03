@@ -8,7 +8,7 @@ Compression=lzma
 SolidCompression=yes
 
 [Files]
-Source: "dist\QuickXRename\*"; DestDir: "{app}"; Flags: recursesubdirs
+Source: "..\..\dist\QuickXRename\*"; DestDir: "{app}"; Flags: recursesubdirs
 
 [Icons]
 Name: "{group}\QuickXRename"; Filename: "{app}\QuickXRename.exe"

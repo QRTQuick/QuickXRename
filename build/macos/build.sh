@@ -4,9 +4,14 @@ set -euo pipefail
 python3 -m pip install --upgrade pip
 pip3 install pyinstaller
 
+ICON_ARG=()
+if [ -f "docs/quickXrename.icns" ]; then
+  ICON_ARG=(--icon "docs/quickXrename.icns")
+fi
+
 pyinstaller --noconfirm --clean --windowed \
   --name QuickXRename \
-  --icon docs/quickXrename.icns \
+  "${ICON_ARG[@]}" \
   --add-data "docs:docs" \
   src/main.py
 

@@ -1,5 +1,4 @@
-app: QuickXRename
-version: 0.1.0
+version: 1
 
 AppDir:
   path: ./AppDir
@@ -7,6 +6,7 @@ AppDir:
     id: com.quickredtech.quickxrename
     name: QuickXRename
     icon: quickxrename
+    version: 0.1.0
     exec: QuickXRename
     exec_args: $@
 
